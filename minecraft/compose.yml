@@ -1,0 +1,12 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    tty: true
+    container_name: minecraft
+    stdin_open: true
+    environment:
+      EULA: "TRUE"
+    volumes:
+      - ./data:/data
+    network_mode: host
+    restart: unless-stopped
