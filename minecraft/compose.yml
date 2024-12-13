@@ -6,7 +6,10 @@ services:
     stdin_open: true
     environment:
       EULA: "TRUE"
+      INIT_MEMORY: 10G
+      MAX_MEMORY: 40G
     volumes:
       - ./data:/data
     network_mode: host
     restart: unless-stopped
+    
