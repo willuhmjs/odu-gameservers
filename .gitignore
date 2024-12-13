@@ -1,3 +1,4 @@
 minecraft/data/*
 minecraft/rcon*/*
 scpsl/config/*
+grafana/
