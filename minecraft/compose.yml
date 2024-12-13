@@ -8,8 +8,11 @@ services:
       EULA: "TRUE"
       INIT_MEMORY: 10G
       MAX_MEMORY: 40G
+      TYPE: "FABRIC"
     volumes:
       - ./data:/data
+    # TODO use iptables instead of host network
+    # do not use this in production
     network_mode: host
     restart: unless-stopped
     
