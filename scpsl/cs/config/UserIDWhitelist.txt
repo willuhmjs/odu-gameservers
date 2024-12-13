@@ -1,0 +1,1 @@
+#Put one UserID (eg. 76561198071934271@steam or 274613382353518592@discord) per line. Lines prefixed with "#" are ignored.
