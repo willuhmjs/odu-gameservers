@@ -1,7 +1,6 @@
 services:
   scpsl:
     image: scpsl
-    container_name: scp
     restart: unless-stopped
     volumes:
       - ./config:/config

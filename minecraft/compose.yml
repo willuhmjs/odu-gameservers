@@ -1,9 +1,6 @@
 services:
   minecraft:
     image: itzg/minecraft-server
-    tty: true
-    container_name: minecraft
-    stdin_open: true
     environment:
       EULA: "TRUE"
       INIT_MEMORY: 10G
