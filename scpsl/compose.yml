@@ -6,4 +6,6 @@ services:
     volumes:
       - ./config:/config
     user: scpsl
+    # TODO use iptables instead of host network
+    # do not use this in production
     network_mode: host
