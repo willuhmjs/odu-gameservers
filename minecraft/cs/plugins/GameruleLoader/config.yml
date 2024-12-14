@@ -1,0 +1,16 @@
+gamerules:
+  world:
+    spawnRadius: 100
+    doFireTick: false
+    doInsomnia: false
+    mobGriefing: false
+  world_nether:
+    spawnRadius: 100
+    doFireTick: false
+    doInsomnia: false
+    mobGriefing: false
+  world_the_end:
+    spawnRadius: 100
+    doFireTick: false
+    doInsomnia: false
+    mobGriefing: false
