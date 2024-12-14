@@ -9,8 +9,8 @@ services:
       VERSION: "1.20.6"
     volumes:
       - ./data:/data
-    # TODO use iptables instead of host network
-    # do not use this in production
-    network_mode: host
+    ports:
+      - "25565:25565"
+      - "25575:25575"
     restart: unless-stopped
     
