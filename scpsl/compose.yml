@@ -6,4 +6,4 @@ services:
       - ./config:/config
     user: scpsl
     ports:
-      - "7777:7777"
+      - "0.0.0.0:7777:7777"
