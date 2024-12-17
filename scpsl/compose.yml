@@ -3,7 +3,7 @@ services:
     image: scpsl
     restart: unless-stopped
     volumes:
-      - ./config:/config
+      - ./data:/config
     user: scpsl
     ports:
       - "0.0.0.0:7777:7777"
