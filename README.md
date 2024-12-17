@@ -6,3 +6,11 @@ All servers can be accessed by the hostname: `discord.cs.odu.edu`
 * Minecraft (1.20.6 or higher)
 * SCP: Secret Laboratory
 * More coming soon
+## Rules
+1. Be respectful to all players.
+2. No cheating, hacking, or exploiting game mechanics.
+3. Use appropriate language; no offensive or inappropriate content.
+4. Report any issues or rule violations to the server administrators:
+    * <@&1318656616450756618>
+    * <@&1318656758234746910>.
+5. Have fun and enjoy the games!
