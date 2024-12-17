@@ -6,4 +6,5 @@ services:
       - ./data:/config
     user: scpsl
     ports:
-      - "0.0.0.0:7777:7777"
+      - "7777:7777/tcp"
+      - "7777:7777/udp"

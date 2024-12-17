@@ -31,7 +31,8 @@ COPY --chown=scpsl:scpsl --from=steam /scpsl /scpsl
 COPY --chown=scpsl:scpsl ["localadmin_internal_data.json", "/home/scpsl/.config/SCP Secret Laboratory/config/"]
 
 VOLUME /config
-EXPOSE 7777
+EXPOSE 7777/tcp
+EXPOSE 7777/udp
 
 USER scpsl
 WORKDIR /scpsl
