@@ -12,5 +12,5 @@ All servers can be accessed by the hostname: `discord.cs.odu.edu`
 3. Use appropriate language; no offensive or inappropriate content.
 4. Report any issues or rule violations to the server administrators:
     * <@&1318656616450756618>
-    * <@&1318656758234746910>.
+    * <@&1318656758234746910>
 5. Have fun and enjoy the games!
