@@ -13,4 +13,5 @@ services:
       - "25565:25565"
       - "25575:25575"
     restart: unless-stopped
-    
+    stdin_open: true
+    tty: true
