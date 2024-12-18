@@ -1,0 +1,6 @@
+services:
+  fitzwilliam:
+    image: ghcr.io/willuhmjs/fitzwilliam:latest
+    restart: unless-stopped
+    env_file:
+      - .env
