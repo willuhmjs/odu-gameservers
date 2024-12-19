@@ -8,3 +8,5 @@ services:
     ports:
       - "7777:7777/tcp"
       - "7777:7777/udp"
+    stdin_open: true
+    tty: true
