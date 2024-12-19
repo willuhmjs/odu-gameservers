@@ -1,3 +1,4 @@
 minecraft/data/*
 scpsl/data/*
+portainer/data/*
 **/.env
